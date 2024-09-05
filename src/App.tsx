@@ -7,11 +7,18 @@ import DiceThree from './assets/dice-six-faces-three.png'
 import DiceFour from './assets/dice-six-faces-four.png'
 import DiceFive from './assets/dice-six-faces-five.png'
 import DiceSix from './assets/dice-six-faces-six.png'
+import ReactNativeHapticFeedback from "react-native-haptic-feedback";
 
 
 type DiceProps = PropsWithChildren<{
   imageUrl: ImageSourcePropType
 }>
+
+const options = {
+  enableVibrateFallback: true,
+  ignoreAndroidSystemSettings: false,
+};
+
 
 const Dice = ({imageUrl}: DiceProps):JSX.Element => {
   return (
@@ -52,6 +59,8 @@ setDiceImage(diceNumber[randomNumber -1])
 //     setDiceImage(DiceOne)
 //     break;
 // }
+
+ReactNativeHapticFeedback.trigger("impactLight", options);
 }
 
   return (
