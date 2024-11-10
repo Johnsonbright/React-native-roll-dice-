@@ -67,7 +67,7 @@ ReactNativeHapticFeedback.trigger("impactLight", options);
     <View style ={styles.container}>
      <Dice imageUrl={diceImage} />
      <Pressable onPress={() => rollDiceOnTap()}>
-     <Text style={styles.rollDiceBtnText}> Roll the dice</Text>
+     <Text style={styles.rollDiceBtnText}> ROLL THE DICE</Text>
      </Pressable>
      
     </View>
