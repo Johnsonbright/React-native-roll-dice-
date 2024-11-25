@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF2F2',
   },
   diceContainer: {
-    margin: 12,
+    margin: 13,
     
   },
  diceImage: {
