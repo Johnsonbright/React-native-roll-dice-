@@ -92,8 +92,8 @@ const styles = StyleSheet.create({
    height: 220,
   },
   rollDiceBtnText: {
-  paddingHorizontal: 40,
-  paddingVertical: 10,
+  paddingHorizontal: 41,
+  paddingVertical: 11,
   borderWidth: 2,
   borderRadius: 8,
   borderColor: '#9ffcba',
