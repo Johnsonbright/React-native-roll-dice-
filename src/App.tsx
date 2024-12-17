@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#FFF2F2',
+    backgroundColor: '#FFF3F2',
   },
   diceContainer: {
     margin: 13,
