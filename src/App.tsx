@@ -88,8 +88,8 @@ const styles = StyleSheet.create({
     
   },
  diceImage: {
-   width: 220,
-   height: 220,
+   width: 215,
+   height: 215,
   },
   rollDiceBtnText: {
   paddingHorizontal: 41,
